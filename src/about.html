@@ -12,7 +12,9 @@
       }
       .header {
         display: flex;
-        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: baseline;
         /* background-color: aqua; */
       }
       .title {
@@ -24,9 +26,26 @@
         /* padding: 20px; */
         /* background-color: red; */
       }
+      nav a {
+          padding: 15px;
+      }
       .content {
-        padding: 20px;
-        /* background-color: chocolate; */
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-grow: 1;
+      }
+      .content h2 {
+          margin-top: 0px;
+          padding-left: 20px;
+      }
+      .content p {
+        padding-left: 20px;
+      }
+      .content img {
+        padding-right: 20px;
       }
       footer {
         padding: 20px;
@@ -48,7 +67,21 @@
       </nav>
     </div>
     <div class='content'>
-      <h2>About the Artist</h2>
+        <div><img src="./resources/artist.jpg" height=250></div>
+        <div>
+           <h2>About the Artist</h2>
+            <p>Lina Habazi is  Palestinian-American student, artist, 
+                and aspiring software developer living in Houston, TX. 
+                She is studying Computer Science with a minor in Studio 
+                Art at the University of Houston. In her art, she likes 
+                to showcase the intersection of traditional Palestinian 
+                culture and her own experiences growing up in the US. As 
+                an artist and programmer, she wants to take on important 
+                issues by developing software solutions through a creative 
+                lens. She is inspired by young Palestinian artists using 
+                their creativity to make a change, and she hopes to someday 
+                encourage others to do the same.</p>
+        </div>
     </div>
     <footer>
       <p>Copyright © 2018 Lina Habazi, All Rights Reserved</p>
