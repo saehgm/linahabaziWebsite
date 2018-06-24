@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
     <title>Lina Habazi</title>
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+        background-color: purple;
+      }
+      .header {
+        display: flex;
+        background-color: aqua;
+      }
+      .title {
+        background-color: pink;
+        flex: 1;
+      }
+      nav {
+        background-color: red;
+      }
+      .content {
+        background-color: chocolate;
+      }
+      footer {
+        background-color: blueviolet;
+      }
+    </style>
   </head>
   <body>
-  
+    <div class='header'>
+      <div class='title'>
+        <h1>Lina Habazi</h1>
+      </div>
+      <nav>
+        <a href="./">HOME</a>
+        <a href="./about">ABOUT</a>
+        <a href="./galleries">GALLERIES</a>
+        <a href="./projects">PROJECTS</a>
+        <a href="./contact">CONTACT</a>
+      </nav>
+    </div>
+    <div class='content'>
+      <h2>Welcome.</h2>
+    </div>
+    <footer>
+      <p>Copyright © 2018 Lina Habazi, All Rights Reserved</p>
+    </footer>
   </body>
 </html>
