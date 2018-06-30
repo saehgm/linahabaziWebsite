@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  flex-direction: column;
+  /* background-color: purple; */
+  margin: 0px;
+}
+.header {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: baseline;        
+  /* background-color: aqua; */
+}
+.title {
+  /* background-color: pink; */
+  flex: 1;
+  /* padding: 20px; */
+}
+nav {
+  /* padding: 20px; */
+  /* background-color: red; */
+}
+nav a {
+    padding: 15px;
+}
+.content {
+  padding: 20px;
+  /* background-color: chocolate; */
+}
+footer {
+  padding: 20px;
+  background-color: rgb(225, 225, 225);
+}
