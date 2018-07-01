@@ -50,8 +50,8 @@ nav {}
   margin-right: 20px;
   /* margin-top: 5px;
   margin-bottom: 5px; */
-  font-family: 'Yatra One';
-  /* font-family: 'Caveat'; */
+  /* font-family: 'Yatra One'; */
+  font-family: 'Lalezar';
   font-size: 30px;
 }
 
@@ -60,7 +60,6 @@ nav {}
 }
 
 .nav-link {
-  font-family: 'Montserrat',
-  sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
