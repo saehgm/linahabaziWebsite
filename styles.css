@@ -48,14 +48,19 @@ nav {}
 
 #navbarTitle {
   margin-right: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  font-family: 'Yatra One';
+  /* font-family: 'Caveat'; */
+  font-size: 30px;
 }
 
 #toggleButton {
   margin: 15px;
 }
 
-/* #navbarRow {
-
-} */
+.nav-link {
+  font-family: 'Montserrat',
+  sans-serif;
+  font-size: 15px;
+}
