@@ -13,35 +13,39 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.html">Lina Habazi</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <span class="navbar-nav mr-auto"></span>
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./galleries.html">Galleries</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./galleries.html">Galleries</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./projects.html">Projects</a>
+      </li>
+    </ul>
+  </div>
+
+  <a class="navbar-brand active" id="navbarTitle" href="./index.html">Lina Habazi
+    <span class="sr-only">(current)</span>
+  </a>
+  <button class="navbar-toggler ml-auto" id='toggleButton' type="button" data-toggle="collapse" data-target="#navbarSupportedContent1, #navbarSupportedContent2"
+    aria-controls="navbarSupportedContent1, navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+
+</nav>
 
 
 
@@ -62,14 +66,12 @@
           encourage others to do the same.</p>
       </div>
     </div>
-    <footer>
-      <p>Copyright © 2018 Lina Habazi, All Rights Reserved</p>
-    </footer>
-
-
   </div>
-
-
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Copyright © 2018 Lina Habazi, All Rights Reserved</span>
+    </div>
+  </footer>
 
 
 
