@@ -1,8 +1,13 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   /* display: flex;
   flex-direction: column;
   margin: 0px; */
-  margin-bottom: 60px;
+  /* margin-bottom: 130px; */
 }
 
 .header {
@@ -16,20 +21,20 @@ body {
   /* flex: 1; */
 }
 
-nav {}
-
 /* nav a {
     padding: 15px;
 } */
 
 .content {
-  padding-top: 130px;
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
-/* footer {
-  padding: 20px;
-  background-color: rgb(225, 225, 225);
-} */
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 .footer {
   position: absolute;
@@ -55,11 +60,35 @@ nav {}
   font-size: 30px;
 }
 
-#toggleButton {
+/* #toggleButton {
   margin: 15px;
-}
+} */
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+}
+
+#footerContent {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#fullNavbar {
+   background-color: rgba(250, 250, 250, 0.97);
+
+  /* -webkit-filter: url('#blur');
+  filter: url('#blur');
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  background-size: cover;
+  opacity: 0.5; */
+}
+
+#carouselExampleControls {
+  margin-bottom: 50px;
+}
+
+#cardDeck {
+  margin-bottom: 50px;
 }
