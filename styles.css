@@ -27,13 +27,13 @@ body {
 
 .content {
   padding-bottom: 100px;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .content h2 {
   font-family: 'Montserrat', sans-serif;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .footer {
@@ -71,7 +71,7 @@ body {
 
 #footerContent {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #fullNavbar {
@@ -86,9 +86,33 @@ body {
 }
 
 #carouselExampleControls {
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #cardDeck {
   margin-bottom: 50px;
 }
+
+/* .buttonGroup {
+  flex-direction: column;
+  flex: 1;
+  background-color: red;
+  /* mx-auto: auto; */
+  /* align-content: center;
+  align-items: center;
+  justify-content: center; */
+
+  .dropdown-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+  .dropdown-menu {
+    min-width: 10px;
+  }
+
+  #rowGroup {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
